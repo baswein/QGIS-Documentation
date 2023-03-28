@@ -416,9 +416,10 @@ interact with each others or with the features.
 Mask tab
 --------
 
-The |labelmask| :guilabel:`Mask` tab allows you to define a mask area around
-the labels. This feature is very useful when you have overlapping symbols and
-labels with similar colors, and you want to make the labels visible.
+The |labelmask| :guilabel:`Mask` tab allows you to define a mask area around 
+labels. You can use this mask to selectively hide parts of other layers. 
+This feature is very useful when you have overlapping symbols and
+labels with similar colors. See :ref:`vector_mask_menu` for further explanation.
 
 .. _figure_label_mask:
 
@@ -428,7 +429,6 @@ labels with similar colors, and you want to make the labels visible.
    Labels settings - Mask tab
 
 To create masking effects on labels:
-
 #. Activate the |checkbox| :guilabel:`Enable mask` checkbox in the |labelmask| tab.
 #. Then you can set:
 
@@ -438,7 +438,7 @@ To create masking effects on labels:
    * :ref:`paint effects <draw_effects>` through the |checkbox|
      :guilabel:`Draw effects` checkbox.
 
-#. Select this mask shape as a mask source in the overlapping layer properties
+#. Select this label mask shape as a mask source in the properties of an overlapping layer
    |labelmask| :guilabel:`Mask` tab (see :ref:`vector_mask_menu`).
 
 
